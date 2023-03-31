@@ -2,7 +2,7 @@
 
 Name:           python-%{pypi_name}
 Version:        0.1.9
-Release:        2
+Release:        3
 Group:          Development/Python
 Summary:        Log and progress bar manager for console, notebooks, web
 License:        MIT
