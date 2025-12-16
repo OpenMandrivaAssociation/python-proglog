@@ -1,8 +1,8 @@
 %global pypi_name proglog
 
 Name:           python-%{pypi_name}
-Version:        0.1.9
-Release:        4
+Version:        0.1.12
+Release:        1
 Group:          Development/Python
 Summary:        Log and progress bar manager for console, notebooks, web
 License:        MIT
