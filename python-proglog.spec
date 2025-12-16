@@ -9,7 +9,8 @@ License:        MIT
 URL:            https://github.com/Edinburgh-Genome-Foundry/Proglog
 Source0:        https://pypi.io/packages/source/p/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
 BuildRequires:  pkgconfig(python)
-BuildRequires:  python3dist(setuptools)
+BuildRequires:  python%{pyver}dist(setuptools)
+BuildRequires:  python%{pyver}dist(pip)
 %{?python_provide:%python_provide python3-%{pypi_name}}
 BuildArch:      noarch
 
