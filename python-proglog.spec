@@ -35,4 +35,4 @@ rm -rf %{pypi_name}.egg-info
 %doc README.rst
 #license LICENCE.txt
 %{python_sitelib}/%{pypi_name}/
-#{python_sitelib}/%{pypi_name}-%{version}-py%{python_version}.egg-info
+%{python_sitelib}/proglog-%{version}.dist-info
